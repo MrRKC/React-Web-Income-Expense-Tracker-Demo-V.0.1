@@ -4,8 +4,6 @@ import Header from './components/Header/Header';
 import Transaction from './components/Transaction/Transaction';
 import ContextHandler from './context/Context'
 
-/// test
-
 const App = () => {
     return (
         <ContextHandler>
