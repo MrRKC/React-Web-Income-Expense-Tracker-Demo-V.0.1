@@ -1,0 +1,32 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 20px;
+    transition: all 200ms;
+}
+
+.toggle button{
+    display: flex;
+    align-items: center;
+    border: transparent;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 200ms;
+    background-color: #05d5ff;
+}
+
+.toggle svg{
+    font-size: 20px;
+    transition: all 200ms;
+    transform: rotate(180deg);
+}
+
+.toggle button:hover{
+    transform: rotate(180deg);
+    background-color: #0fa2c0;
+}
+
+
